@@ -1,0 +1,31 @@
+$sider-width=200px
+$header-height=60px
+$app-sider-height=calc(100vh - 60px)
+$app-content-padding=20px
+$app-content-cont-height=calc(100vh - 100px )
+.app-header
+  width 100vw
+  height $header-height
+  line-height $header-height
+  display flex
+  position fixed
+  background-color #eee
+  .left
+    flex-basis $sider-width
+  .right
+    flex 1
+.app-sider
+  width $sider-width
+  height $app-sider-height
+  top $header-height
+  overflow-y hidden
+  word-break break-all
+  background-color #eee
+  position fixed
+  left 0
+.app-content
+  padding $header-height+$app-content-padding $app-content-padding $app-content-padding $sider-width+$app-content-padding
+  min-height 100vh
+  .app-content-cont
+    background-color white
+    min-height $app-content-cont-height
