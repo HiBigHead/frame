@@ -3,7 +3,7 @@
   <div>
     <p>Index</p>
     <ul>
-      <li v-for="item in data.list" :key="item.id">{{item.name}}</li>
+      <li v-for="item in data.list" :key="item.id">{{item.name}}-{{item.creatTime}}</li>
     </ul>
   </div>
 </template>

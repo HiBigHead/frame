@@ -2,7 +2,12 @@
 <template>
   <div
     class="app-sider"
-  >sidersidersidersidersidersidersidersidersidersidersidersidersidersidersidersidersidersidersidersider</div>
+  >
+    <ul>
+      <li>首页</li>
+      <li>图形控制数预览</li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -13,4 +18,7 @@ export default {
   }
 };
 </script>
-<style lang='stylus' scoped></style>
+<style lang='stylus' scoped>
+.app-sider
+ padding 10px
+</style>
