@@ -5,24 +5,20 @@
       left
     </div>
     <div class="right">
-      <router-link to='/index'>index</router-link>
-      <router-link to='/system'>system</router-link>
-      <router-link to='/router'>router</router-link>
-      <router-link to='/page'>page</router-link>
+      <router-link to="/index">index</router-link>
+      <router-link to="/system">system</router-link>
+      <router-link to="/router">router</router-link>
+      <router-link to="/page">page</router-link>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Header',
-  data () {
-    return {
-    };
-  },
-}
-
+  name: "Header",
+  data() {
+    return {};
+  }
+};
 </script>
-<style lang='stylus' scoped>
-
-</style>
+<style lang="stylus" scoped></style>

@@ -51,14 +51,10 @@
 
 <script>
 export default {
-  name: 'Router',
-  data () {
-    return {
-    };
-  },
-}
-
+  name: "Router",
+  data() {
+    return {};
+  }
+};
 </script>
-<style lang='stylus' scoped>
-    
-</style>
+<style lang="stylus" scoped></style>

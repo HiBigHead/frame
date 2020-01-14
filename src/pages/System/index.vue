@@ -5,14 +5,10 @@
 
 <script>
 export default {
-  name: 'System',
-  data () {
-    return {
-    };
-  },
-}
-
+  name: "System",
+  data() {
+    return {};
+  }
+};
 </script>
-<style lang='stylus' scoped>
-    
-</style>
+<style lang="stylus" scoped></style>
